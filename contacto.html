@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="css/style.css">
+	<title> Formulario de Contacto</title>
+</head>
+<body>
+	
+<form action="https://api.web3forms.com/submit" class="contact_form" method="POST">
+	<input type="hidden" name="apikey" value="c8f71d44-5ed7-4817-84c3-1594f583be03">
+
+	<h2>Formulario de Contacto</h2>
+
+	<label for="usuario">Ingrese su Nombre Completo</label>
+	<input class="controls" type="text" placeholder="Digite sus datos de nombres y apellidos" name="usuario" id="usuario">
+	<br> 
+
+	<label for="asunto"> Escribe un asunto para el correo</label>
+	<input class="controls" type="text" name="asunto" placeholder="Escribe un asunto" id="asunto">
+	<br>
+
+	<label for="email">Email</label>
+	<input class="controls" type="email" name="email" id="email" placeholder="Inserte su dirección de Correo Electrónico">
+	<br>
+
+	<label for="mensaje">Escribe tu mensaje</label>
+	<textarea class="controls" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+	<br>
+
+	<input src="https://ww2.ufps.edu.co/" class="boton" type="submit" id="boton" name="boton" value="Enviar Formulario">
+
+</form>
+</body>
+</html>
